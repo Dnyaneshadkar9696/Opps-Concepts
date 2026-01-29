@@ -52,7 +52,16 @@ public class MainEncap {
 		System.out.println("Name of Author : "+ bok.getAuthor());
 		System.out.println("Book Title : "+ bok.getTitle());
 		System.out.println("Prise of Book : "+bok.getPrise());
+
+		System.out.println();
+	    System.out.println("Product Details ");
+	    Product p1 = new Product();
+	    p1.setProductID(23433);
+	    p1.setproductQuantity(34);
+	    System.out.println("Product Id : "+ p1.getProductId());
+	    System.out.println("Product Quantity : "+ p1.getproductQuantity());
 	}
 
 }
+
 
