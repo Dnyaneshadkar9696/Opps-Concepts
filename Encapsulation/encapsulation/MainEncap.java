@@ -26,6 +26,33 @@ public class MainEncap {
 		
 		bk.setWithdraw(1200);
 		System.out.println("Amount withdrawn remaning balance : "+ bk.getWithdraw());
+
+		System.out.println();
+		
+		Student st = new Student();
+		st.setMarks(123);
+		st.setName("Ganesh Kumar");
+		System.out.println("Name :" + st.getName());
+		System.out.println("Marks :" +st.getMarks());
+		
+		System.out.println();
+		Login lg = new Login();
+		lg.setMyLogin("GaneshKumar");
+		lg.setMyPassword("Ganesh@1234");
+		
+		System.out.println("User Name : "+ lg.getMyLogin());
+		System.out.println("Password : "+ lg.getMyPassword());
+		
+		System.out.println();
+		
+		Book bok = new Book(599);
+		bok.setAuthor("Sham Kumar");
+		bok.setTitle("Atomic Habbits ");
+		
+		System.out.println("Name of Author : "+ bok.getAuthor());
+		System.out.println("Book Title : "+ bok.getTitle());
+		System.out.println("Prise of Book : "+bok.getPrise());
 	}
 
 }
+
