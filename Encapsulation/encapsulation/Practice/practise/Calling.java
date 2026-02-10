@@ -35,10 +35,25 @@ public class Calling {
 		System.out.println("City: " + em.getCity());
 		System.out.println("Salary: " + em.getSalary());
 		System.out.println("Mobile Number: " + em.getMobNumber());
+
+			System.out.println();
+		
+		Student st = new Student("Dhruv", 101, "Ahmedabad");
+//		st.setName("Dhruv");
+//		st.setRollNo(101);
+//		st.setCity("Ahmedabad");
+//		
+//		System.out.println("Student details: " );
+//		System.out.println("Name: " + st.getName());
+//		System.out.println("Roll No: " + st.getRollNo());
+//		System.out.println("City: " + st.getCity());
+		
+		System.out.println(st.toString());
 		
 		
 		sc.close();
 		
 	}
+
 
 }
