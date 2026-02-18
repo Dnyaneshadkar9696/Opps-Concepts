@@ -100,9 +100,25 @@ public class Controller {
 		
 		sp = new PremiumPlan();
 		sp.calculatePrise();
+
+			// course
+		System.out.println();
+		
+		Course c;
+		c = new JavaCourse();
+		c.courseDetailsJava();
+		
+		System.out.println();
+		c = new PytonCourse();
+		c.courseDetailsPython();
+		System.out.println();
+		c.calculateDuration();
+		
+		
 		
 		
 		
 	}
 
 }
+
